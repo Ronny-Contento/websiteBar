@@ -1,0 +1,365 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: rgb(206, 247, 247);
+}
+
+.cabecero {
+  background-color: rgb(0, 51, 140);
+  height: 100px;
+}
+
+.redes {
+  background-color: rgb(6, 6, 6);
+  height: 30px;
+  align-items: flex-end;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+a i {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 2px;
+}
+
+.subcabecero {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 70px;
+}
+
+.logo {
+  float: left;
+  width: 25%;
+}
+.logo img {
+  height: 70px;
+  width: 130px;
+}
+
+.buscar {
+  width: 45%;
+}
+.buscar input {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
+.buscar i {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-right: 50px;
+}
+
+.iniciar {
+  float: right;
+  width: 8%;
+}
+.iniciar button {
+  background-color: rgb(39, 182, 70);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  width: 120px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu {
+  background-color: rgb(0, 51, 140);
+  margin: 0px auto;
+  border: 0px;
+  padding: 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu a {
+  background-color: rgb(0, 51, 140);
+  margin: 10px 10px;
+  border: 0px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.menu a i {
+  margin-right: 5px;
+}
+.menu a:hover {
+  border-radius: 10px;
+  background-color: rgb(39, 182, 70);
+}
+
+.slider {
+  height: 450px;
+  width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider .slider-contenedor {
+  height: 450px;
+  width: 2800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation: slide 15s infinite;
+          animation: slide 15s infinite;
+}
+.slider .slider-contenedor .slide-contenedor-1 {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  float: left;
+}
+.slider .slider-contenedor .slide-contenedor-1 .imagen {
+  height: 450px;
+  width: 600px;
+}
+.slider .slider-contenedor .slide-contenedor-1 .flechas {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 10px;
+}
+.slider .slider-contenedor .slide-contenedor-1 .flechas i {
+  color: rgb(39, 182, 70);
+  font-size: 25px;
+  margin: 2px;
+}
+.slider .slider-contenedor .slide-contenedor-2 {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  float: left;
+}
+.slider .slider-contenedor .slide-contenedor-2 .imagen {
+  height: 225px;
+  width: 100%;
+}
+.slider .slider-contenedor .slide-contenedor-2 .flechas {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 10px;
+}
+.slider .slider-contenedor .slide-contenedor-2 .flechas i {
+  color: rgb(39, 182, 70);
+  font-size: 25px;
+  margin: 2px;
+}
+.slider .slider-contenedor .slide-contenedor-3 {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  float: left;
+}
+.slider .slider-contenedor .slide-contenedor-3 .imagen {
+  height: 225px;
+  width: 100%;
+}
+.slider .slider-contenedor .slide-contenedor-3 .flechas {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 10px;
+}
+.slider .slider-contenedor .slide-contenedor-3 .flechas i {
+  color: rgb(39, 182, 70);
+  font-size: 25px;
+  margin: 2px;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  15% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  80% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  15% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  80% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.productos {
+  display: flex;
+}
+.productos .catalogo {
+  background-color: rgb(0, 51, 140);
+  padding: 10px;
+  width: 300px;
+  margin-left: 33px;
+  border-radius: 10px;
+}
+.productos .catalogo .titulo {
+  background-color: rgb(39, 182, 70);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+}
+.productos .catalogo .coctel1 {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+.productos .lista-producto .producto {
+  height: 300px;
+  width: 859px;
+}
+.productos .lista-producto .producto .titulo {
+  background-color: rgb(39, 182, 70);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.productos .lista-producto .producto .masVendido {
+  background-color: rgb(39, 182, 70);
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.productos .lista-producto .producto .masVendido .contenedor-producto {
+  background-color: rgb(0, 51, 140);
+  margin: 10px;
+  width: 240px;
+  height: 240px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.productos .lista-producto .producto .masVendido .contenedor-producto .cabecero-producto {
+  background-color: rgb(39, 182, 70);
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+.productos .lista-producto .producto .masVendido .contenedor-producto .cuerpo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.productos .lista-producto .producto .masVendido .contenedor-producto img {
+  width: 190px;
+  border-radius: 10px;
+}
+
+.lista-promociones {
+  background-color: rgb(0, 51, 140);
+  height: 300px;
+  width: 840px;
+  margin: 0px auto;
+  padding: 10px;
+  margin-left: 352px;
+}
+.lista-promociones .titulo {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+}
+.lista-promociones .promociones {
+  background-color: rgb(39, 182, 70);
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.lista-promociones .promociones .contenedor-promociones {
+  background-color: rgb(0, 51, 140);
+  margin: 10px;
+  width: 240px;
+  height: 240px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.lista-promociones .promociones .contenedor-promociones .cuerpo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.lista-promociones .promociones .contenedor-promociones img {
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+}
+
+.informacion {
+  background-color: rgb(0, 51, 140);
+  height: 300px;
+  width: 1159px;
+  margin: 0px auto;
+  padding: 10px;
+  margin-left: 33px;
+  display: flex;
+}
+.informacion .localidad {
+  height: 300px;
+  width: 852px;
+}
+.informacion .contacto {
+  height: 300px;
+  width: 852px;
+}
+.informacion .contacto .formulario {
+  color: white;
+}
